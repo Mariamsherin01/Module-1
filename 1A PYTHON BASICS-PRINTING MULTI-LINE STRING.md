@@ -1,34 +1,30 @@
-# Experiment No: 1a Python Basics- Printing Multiline String
+# Experiment No: 1a Python Basics- String Indexing and Slicing in Python.
 
 ## AIM  
-To create a Python program to print the string in multiple lines using triple quotes.
+To write a Python program that accepts a string from the user and demonstrates string indexing and slicing operations.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Use triple quotes (`'''` or `"""`) to define a string that spans multiple lines.  
-3. Use the `print()` function to display the multi-line string.  
-4. Terminate the program.
+1.Accept a string input from the user.
+2.Access and display the full string.
+3.Access and display characters using indexing ([0], [-1]).
+4.Access and display parts of the string using slicing ([1:5], [5:-2]).
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
+# Reg.No- 212222060143
+# Name- MariamSherin
+str_value = input()
 
-string_single_quotes = '''I am a string literal
-... has more than one
-... line
-... placed inside triple single quotes'''
 
-string_double_quotes = """I am a string literal
-... has more than one
-... line
-... placed inside triple double quotes"""
-
-print(string_single_quotes)
-print(string_double_quotes)
+print("str = ", str_value)
+print("str[0] = ", str_value[0])          
+print("str[-1] = ", str_value[-1])         
+print("str[1:5] = ", str_value[1:5])       
+print("str[5:-2] = ", str_value[5:-2])
 ```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/ef54122a-fd9c-48c3-96bd-883f218edfe2)
+
 
 ## RESULT
-
+Thus, The Python program that accepts a string from the user and demonstrates string indexing and slicing operations is implemented and executed sucessfully.
